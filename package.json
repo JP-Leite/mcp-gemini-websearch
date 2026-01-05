@@ -1,0 +1,41 @@
+{
+  "name": "mcp-gemini-websearch",
+  "version": "0.1.0",
+  "description": "MCP server for Google Search via Gemini CLI",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-gemini-websearch": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "gemini",
+    "google-search",
+    "opencode",
+    "claude",
+    "ai",
+    "search",
+    "web-search",
+    "model-context-protocol"
+  ],
+  "author": "John Leite",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpjpjpjp/mcp-gemini-websearch.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ]
+}
